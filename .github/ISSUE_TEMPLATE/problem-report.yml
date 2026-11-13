@@ -1,0 +1,97 @@
+name: Problem report
+description: Report something that breaks, or behaves differently from the component it replaces.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for trying a Guarded Component. Please file one issue per problem.
+
+        **Issues here are public.** Don't include credentials, keys, customer data or anything else you wouldn't post publicly.
+
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      options:
+        - challoc
+        - Other (say which below)
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Component version
+      description: The package version of the component.
+    validations:
+      required: true
+
+  - type: textarea
+    id: challoc-features
+    attributes:
+      label: challoc feature line (challoc only)
+      description: If you can get it, paste the feature line from `challoc_features()` or `malloc_stats_print`.
+      render: text
+
+  - type: input
+    id: image
+    attributes:
+      label: Image or distribution
+      description: Where the component ran.
+      placeholder: e.g. cgr.dev/chainguard/python:latest, Wolfi, Debian 13
+    validations:
+      required: true
+
+  - type: dropdown
+    id: arch
+    attributes:
+      label: Architecture
+      options:
+        - x86_64
+        - aarch64
+        - Other (say which below)
+    validations:
+      required: true
+
+  - type: input
+    id: kernel
+    attributes:
+      label: Host kernel version
+      description: Output of `uname -r` on the host.
+      placeholder: e.g. 6.12.10
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: What you did
+      description: Steps to reproduce the problem. A minimal reproduction helps most.
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened
+      description: Include any error messages, crashes or logs.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected to happen
+      description: How this differs from the expected behavior, or from the component this one replaces (for example glibc malloc, jemalloc, tcmalloc or mimalloc).
+    validations:
+      required: true
+
+  - type: textarea
+    id: other
+    attributes:
+      label: Anything else
+      description: Other context that might help.
