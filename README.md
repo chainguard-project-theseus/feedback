@@ -1,7 +1,7 @@
 # Chainguard Project Theseus feedback
  
-This repository is where to report problems with Chainguard Project
-Theseus [link to org README] and its Guarded Components.
+This repository is where to report problems with [Chainguard Project
+Theseus](https://github.com/chainguard-project-theseus/) and its Guarded Components.
  
 ## Filing an issue
  
