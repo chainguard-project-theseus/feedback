@@ -34,5 +34,4 @@ We aren't accepting pull requests.
  
 ## Trademarks
  
-Use of the Chainguard and challoc names is governed by Chainguard's
-trademark policy.
+Use of the Chainguard and challoc names, as well as other Chainguard trademarks, logos, and brand assets, is governed by the Chainguard Trademark Use Policy located at: https://www.chainguard.dev/legal/chainguard-trademark-use-policy.
