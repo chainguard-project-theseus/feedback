@@ -29,7 +29,7 @@ data or anything else you wouldn't post publicly.
 - [challoc](https://github.com/chainguard-project-theseus/challoc): a
   memory allocator written in Rust, built to replace glibc malloc,
   jemalloc, tcmalloc and mimalloc. Status: experimental.
-- - [Thwart](https://github.com/chainguard-project-theseus/Thwart):  a server-side template engine for Spring web apps, built to replace runtime template engines like Thymeleaf, JSP and FreeMarker. Status: experimental.
+- [Thwart](https://github.com/chainguard-project-theseus/Thwart):  a server-side template engine for Spring web apps, built to replace runtime template engines like Thymeleaf, JSP and FreeMarker. Status: experimental.
 
 
 ## Pull requests
