@@ -11,9 +11,11 @@ file one issue per problem.
  
 Include:
  
-- **The component and its version.** For challoc, the package version,
+- **The component and its version.**
+    - For challoc, the package version,
   plus the feature line from `challoc_features()` or
   `malloc_stats_print` if you can get it.
+    - For Thwart, include the Thwart version, Java and Spring or Spring Boot versions, Maven or Gradle, and the engine you migrated from. For migration problems, include what /thwart:thwart reported.
 - **Where it ran.** The image or distribution, the architecture and the
   host kernel version.
 - **What you did.** A minimal reproduction helps most.
@@ -27,6 +29,8 @@ data or anything else you wouldn't post publicly.
 - [challoc](https://github.com/chainguard-project-theseus/challoc): a
   memory allocator written in Rust, built to replace glibc malloc,
   jemalloc, tcmalloc and mimalloc. Status: experimental.
+- [Thwart](https://github.com/chainguard-project-theseus/Thwart):  a server-side template engine for Spring web apps, built to replace runtime template engines like Thymeleaf, JSP and FreeMarker. Status: experimental.
+
 
 ## Pull requests
  
